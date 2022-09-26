@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- displays site properly based on user's device -->
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
     <title>Frontend Mentor | Interactive rating component</title>
@@ -26,35 +27,72 @@
 <body>
 
     <!-- Rating state start -->
+    <div class="card text-bg-light mb-3" style="width: 18rem;">
+        <div class="card-body">
+            <h1 class="card-title">How did we do?</h1>
 
-    How did we do?
+            <p class="card-text"> Please let us know how we did with your support request. All feedback is appreciated
+                to help us improve our offering!</p>
+        </div>
+        <div class="text-center">
+            <form action="#" id="rating">
+                <input type="radio" value="1" id="star1" name="rating" class="visually-hidden">
+                <label for="star1">
+                    <span class="visually-hidden">1 star</span>
+                    <button id="1star" class="btn btn-secondary">1</button>
+                </label>
+                <input type="radio" value="2" id="star2" name="rating" class="visually-hidden">
+                <label for="star2">
+                    <span class="visually-hidden">2 star</span>
+                    <button id="2star" class="btn btn-secondary">2</button>
+                </label>
+                <input type="radio" value="3" id="star3" name="rating" class="visually-hidden">
+                <label for="star3">
+                    <span class="visually-hidden">3 star</span>
+                    <button id="3star" class="btn btn-secondary">3</button>
+                </label>
+                <input type="radio" value="4" id="star4" name="rating" class="visually-hidden">
+                <label for="star4">
+                    <span class="visually-hidden">4 star</span>
+                    <button id="4star" class="btn btn-secondary">4</button>
+                    <input type="radio" value="5" id="star5" name="rating" class="visually-hidden">
+                    <label for="star5">
+                        <span class="visually-hidden">5 star</span>
+                        <button id="5star" class="btn btn-secondary">5</button>
+                    </label>
+            </form>
+        </div>
 
-    Please let us know how we did with your support request. All feedback is appreciated
-    to help us improve our offering!
+        <div class="d-grip gap-2 text-center">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </div>
 
-    1 2 3 4 5
-
-    Submit
 
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
+    <p class="visually-hidden">
+        You selected
+        <!-- Add rating here --> out of 5
 
-    You selected
-    <!-- Add rating here --> out of 5
+        Thank you!
 
-    Thank you!
-
-    We appreciate you taking the time to give a rating. If you ever need more support,
-    don’t hesitate to get in touch!
+        We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!
+    </p>
 
     <!-- Thank you state end -->
 
-
-    <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">K. Ryder</a>.
-    </div>
+    <footer>
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="#">K. Ryder</a>.
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
