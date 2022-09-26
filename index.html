@@ -12,59 +12,54 @@
     <title>Frontend Mentor | Interactive rating component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-        .attribution {
-            font-size: 11px;
-            text-align: center;
-        }
 
-        .attribution a {
-            color: hsl(228, 45%, 44%);
-        }
-    </style>
 </head>
 
 <body>
 
     <!-- Rating state start -->
-    <div class="card text-bg-light mb-3" style="width: 18rem;">
-        <div class="card-body">
-            <h1 class="card-title">How did we do?</h1>
+    <div class="justify-content-center row">
+        <div class="card text-bg-light mb-3 p-3" id="main-card" style="width: 20rem;">
+            <img src="images/icon-star.svg" alt="star icon" id="star-icon">
+            <div class="card-body">
+                <h1 class="card-title">How did we do?</h1>
 
-            <p class="card-text"> Please let us know how we did with your support request. All feedback is appreciated
-                to help us improve our offering!</p>
-        </div>
-        <div class="text-center">
-            <form action="#" id="rating">
-                <input type="radio" value="1" id="star1" name="rating" class="visually-hidden">
-                <label for="star1">
-                    <span class="visually-hidden">1 star</span>
-                    <button id="1star" class="btn btn-secondary">1</button>
-                </label>
-                <input type="radio" value="2" id="star2" name="rating" class="visually-hidden">
-                <label for="star2">
-                    <span class="visually-hidden">2 star</span>
-                    <button id="2star" class="btn btn-secondary">2</button>
-                </label>
-                <input type="radio" value="3" id="star3" name="rating" class="visually-hidden">
-                <label for="star3">
-                    <span class="visually-hidden">3 star</span>
-                    <button id="3star" class="btn btn-secondary">3</button>
-                </label>
-                <input type="radio" value="4" id="star4" name="rating" class="visually-hidden">
-                <label for="star4">
-                    <span class="visually-hidden">4 star</span>
-                    <button id="4star" class="btn btn-secondary">4</button>
-                    <input type="radio" value="5" id="star5" name="rating" class="visually-hidden">
-                    <label for="star5">
-                        <span class="visually-hidden">5 star</span>
-                        <button id="5star" class="btn btn-secondary">5</button>
+                <p class="card-text"> Please let us know how we did with your support request. All feedback is
+                    appreciated
+                    to help us improve our offering!</p>
+            </div>
+            <div class="text-center pb-3">
+                <form action="#" id="rating">
+                    <input type="radio" value="1" id="star1" name="rating" class="visually-hidden" checked>
+                    <label for="star1">
+                        <span class="visually-hidden">1 star</span>
+                        <button id="1star" class="btn btn-secondary round">1</button>
                     </label>
-            </form>
-        </div>
+                    <input type="radio" value="2" id="star2" name="rating" class="visually-hidden">
+                    <label for="star2">
+                        <span class="visually-hidden">2 star</span>
+                        <button id="2star" class="btn btn-secondary round">2</button>
+                    </label>
+                    <input type="radio" value="3" id="star3" name="rating" class="visually-hidden">
+                    <label for="star3">
+                        <span class="visually-hidden">3 star</span>
+                        <button id="3star" class="btn btn-secondary round">3</button>
+                    </label>
+                    <input type="radio" value="4" id="star4" name="rating" class="visually-hidden">
+                    <label for="star4">
+                        <span class="visually-hidden">4 star</span>
+                        <button id="4star" class="btn btn-secondary round">4</button>
+                        <input type="radio" value="5" id="star5" name="rating" class="visually-hidden">
+                        <label for="star5">
+                            <span class="visually-hidden">5 star</span>
+                            <button id="5star" class="btn btn-secondary round">5</button>
+                        </label>
+                </form>
+            </div>
 
-        <div class="d-grip gap-2 text-center">
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="d-grip gap-2 text-center">
+                <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+            </div>
         </div>
     </div>
 
@@ -72,15 +67,17 @@
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
-    <p class="visually-hidden">
-        You selected
-        <!-- Add rating here --> out of 5
+    <div class="card visually-hidden text-bg-light mb-3" id="secondary-card">
+        <p class="card-text">
+            You selected
+            <!-- Add rating here --><span id="final-rating"></span>out of 5
 
-        Thank you!
+            Thank you!
 
-        We appreciate you taking the time to give a rating. If you ever need more support,
-        don’t hesitate to get in touch!
-    </p>
+            We appreciate you taking the time to give a rating. If you ever need more support,
+            don’t hesitate to get in touch!
+        </p>
+    </div>
 
     <!-- Thank you state end -->
 

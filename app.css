@@ -1,0 +1,21 @@
+
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+
+        .round{
+            border-radius: 50%;
+        }
+
+        #star-icon{
+            border-radius: 50%;
+            border: 1px, solid, black;
+            width: 40px;
+        }
+
+    
