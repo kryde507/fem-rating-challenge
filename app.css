@@ -1,11 +1,21 @@
 
-        .attribution {
+       body{
+           font-size: 15px;
+           font-family: 'Overpass', sans-serif;
+       }
+       
+       h1, h2{ 
+           font-weight: 700;
+           font-size: 1.4rem;
+       }
+       .attribution {
             font-size: 11px;
             text-align: center;
         }
 
         .attribution a {
             color: hsl(228, 45%, 44%);
+            
         }
 
         .round{
@@ -18,4 +28,8 @@
             width: 40px;
         }
 
-    
+    /* footer{
+        bottom:0;
+        position: absolute;
+        text-align: right;
+    } */
