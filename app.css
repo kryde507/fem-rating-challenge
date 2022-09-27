@@ -31,19 +31,15 @@
             height: 48px;
         }
 
-        span.round{
-            /* margin: 8px; */
+        .btn-secondary.round{
             color:hsl(217, 12%, 63%);
-            cursor: pointer;
-            display: inline-block;
-            /* text-align: center; */
         }
-        span.round:hover{
+        .btn-secondary.round:hover{
             background-color: hsl(217, 12%, 63%);
             color:hsl(0, 0%, 100%);
         }
 
-         span.round:active{
+         .btn-check:checked+.btn-secondary.round{
             background-color: hsl(25, 97%, 53%);
             color:hsl(0, 0%, 100%);
         }
