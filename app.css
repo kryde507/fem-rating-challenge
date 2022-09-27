@@ -33,7 +33,9 @@
 
         .btn-secondary.round{
             color:hsl(217, 12%, 63%);
+            line-height: 2.25;
         }
+        
         .btn-secondary.round:hover{
             background-color: hsl(217, 12%, 63%);
             color:hsl(0, 0%, 100%);
@@ -57,7 +59,7 @@
             text-transform: uppercase;
             border-radius: 22px;
             height: 44px;
-            width: 20.5rem;
+            width: 20.25rem;
             letter-spacing: 2px;
         }
          #submit:hover {
