@@ -31,9 +31,21 @@
             height: 48px;
         }
 
-        .btn-secondary{
+        span.round{
             /* margin: 8px; */
-            color:hsl(217, 12%, 63%)
+            color:hsl(217, 12%, 63%);
+            cursor: pointer;
+            display: inline-block;
+            /* text-align: center; */
+        }
+        span.round:hover{
+            background-color: hsl(217, 12%, 63%);
+            color:hsl(0, 0%, 100%);
+        }
+
+         span.round:active{
+            background-color: hsl(25, 97%, 53%);
+            color:hsl(0, 0%, 100%);
         }
 
         #star-icon{
@@ -52,6 +64,11 @@
             width: 20.5rem;
             letter-spacing: 2px;
         }
+         #submit:hover {
+            background-color: hsl(0, 0%, 100%);
+            color: hsl(25, 97%, 53%);
+        }
+        
         #main-card, #secondary-card{
             height: 100vh;
         }
