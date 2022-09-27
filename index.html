@@ -22,8 +22,8 @@
 <body>
 
     <!-- Rating state start -->
-    <div class="container justify-content-center row">
-        <div class="card text-bg-light mb-3 p-3" id="main-card" style="width: 20rem;">
+    <div class="container-fluid justify-content-center align-items-center row" id="main-card">
+        <div class="card p-1 " style="width: 21.5rem;">
             <img src="images/icon-star.svg" alt="star icon" id="star-icon">
             <div class="card-body">
                 <h1 class="card-title">How did we do?</h1>
@@ -61,7 +61,7 @@
                 </form>
             </div>
 
-            <div class="d-grip gap-2 text-center">
+            <div class="d-grip gap-2 text-center pb-3">
                 <button type="submit" class="btn btn-primary" id="submit">Submit</button>
             </div>
         </div>
@@ -72,8 +72,8 @@
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
-    <div class="container justify-content-center row">
-        <div class="card visually-hidden text-bg-light mb-3" style="width: 20rem;" id="secondary-card">
+    <div class="container-fluid justify-content-center visually-hidden align-items-center row" id="secondary-card">
+        <div class="card " style="width: 20rem;">
             <p class="card-text">
                 You selected <span id="final-rating"></span> out of 5</p>
 
