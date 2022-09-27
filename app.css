@@ -25,30 +25,47 @@
 
         .round{
             border-radius: 50%;
-            background-color: hsl(216, 12%, 54%);
+            background-color: hsl(213, 19%, 18%);
             border: none;
+            width: 40px;
+            height: 40px;
+        }
+/* 
+        #star{
+            padding: 0px;
+        } */
+
+        .btn-secondary{
+            margin: 9px;
         }
 
         #star-icon{
-            border-radius: 50%;
-            border: 1px, solid, black;
-            width: 40px;
+            height: 18px;
+            width: 18px;
+            margin: 0px;
         }
         
-        p{
-            font-size: 15px;
-        }
         #submit{
             background-color: hsl(25, 97%, 53%);
             color: hsl(0, 0%, 100%);
             border: none;
             text-transform: uppercase;
+            border-radius: 20px;
+            height: 40px;
+            width: 18rem;
         }
-        .row{
+        #main-card, #secondary-card{
             height: 100vh;
         }
         .card{
             background: linear-gradient(hsl(213, 19%, 18%), hsl(214, 12%, 11%)) ;
+            border-radius: 20px;
+            border: none;
+            width: 21.5rem;
+        }
+
+        #thanks-img{
+            width: 50%;
         }
 
     /* footer{
