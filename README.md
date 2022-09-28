@@ -28,7 +28,7 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://kryde507.github.io/fem-rating-challenge/](https://kryde507.github.io/fem-rating-challenge/)
 
 ## My process
 
