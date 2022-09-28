@@ -41,7 +41,7 @@
 
 ### What I learned
 
-In this project I learned about using Bootstrap, especially for layout purposes, how to change the interface of radio buttons and accessing the value of the checked radio button. 
+In this project I learned about using Bootstrap, especially for layout purposes, how to change the interface of radio buttons and accessing the value of the checked radio button. This was also my first project using GitHub, so I learned how to publish a project and set up my first GitHub page. 
 
 The following HTML snippet is part of the radio button structure:
 ```html
