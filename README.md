@@ -22,7 +22,9 @@
 
 ### Screenshot
 
-![Project Screenshot](./images/Screenshot-1)
+![Project Screenshot](./images/Screenshot-1.png)
+![Project Screenshot 2](./images/Screenshot-2.png)
+![Project Screenshot 3](./images/Screenshot-3.png)
 
 ### Links
 
