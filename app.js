@@ -12,6 +12,5 @@ ratingForm.addEventListener('submit', function (e) {
     let selectedRating = document.querySelector("input[name='btnradio']:checked").value;
     let finalRating = document.querySelector("#final-rating");
     finalRating.innerText = selectedRating;
-    console.log(selectedRating);
 })
 
